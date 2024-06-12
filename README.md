@@ -16,7 +16,5 @@ As illustrated here, on a simple toy problem with a known solution,
 contextual regression can fail to identify important sequence positions
 and instead identify randomized and/or fixed sequence positions as
 more important than those with an actual relationship to the output.
-Its usefulness and accuracy are NN-architecture and hyperparameter
-dependent. These result suggest that contextual regression should not
-be assumed reliable. If it yields results that are inconsistent with
-prior knowledge it should be considered guilty until proven innocent.
+Its usefulness and accuracy may therefore be NN-architecture and hyperparameter
+dependent.
